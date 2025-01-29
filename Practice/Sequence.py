@@ -1,7 +1,7 @@
 seqNum = int(input("Enter a number of digits: "))
 numeral = int(input("What digit do you prefer? "))
 while numeral < 0 or numeral > 9:
-    numeral = int(input('digit i sout of range. Enter a new one: '))
+    numeral = int(input('digit is out of range. Enter a new one: '))
 numeralCount = 0
 for num in range(seqNum):
     print("Enter", num, "number: ", end= '')
